@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application From</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <u><h1>Course Registration From</h1></u>
+    <form action="https://github.com">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+        
+            <tr>
+                <td><label for="fd">First Name</label></td>
+                <td><input type="text" placeholder="Ex:Durga" required>
+                <p>Enter The Name</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Surname">Surname</label></td>
+                <td><input type="text" placeholder="Ex:S" optional><P>Enter Surname</P>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="number">Mobile Number</label></td>
+                <td><input type="tel" placeholder="9876543210" required><p>Enter Mobile Number</p>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="email">Email ID</label></td>
+                <td><input type="email" placeholder="Abc@gmail" required><p>Enter Email Address</p>
+                <img src="checkmark.png" alt="image not found" id="right">
+                <img src="no.png" alt="image not found" id="wrong">
+                </td>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" placeholder="Pass@123" required><p>Enter Password</p>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="Cpassword">Confirm Password</label>
+                <td><input type="password" placeholder="Pass@123" required><p>Enter Same Password</p>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="DOB">DOB</label></td>
+                <td><input type="date" placeholder="01/01/2001" required>
+                <P>Enter Date Of Barth</P></td>
+                
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" required min="18" max="105"><p>Enter Your Age</p>
+                <img src="checkmark.png" alt="image not found" id="right">
+                <img src="no.png" alt="image not found" id="wrong">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" name="Gender" value="Male"><label>Male</label>
+                    <input type="radio" name="Gender" value="Female"><label>Female</label>
+                    <input type="radio" name="Gender" value="Other"><label>Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Country">Select Country</label></td>
+                <td>
+                    <select name="Country">
+                        <option value="">select</option>
+                        <option value="">India</option>
+                        <option value="">Us</option>
+                        <option value="">Uk</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="uplosd File">Upload File</label></td>
+                <td><input type="file" id="up"></td>
+            </tr>
+            <tr>
+                <td><input type="reset" optional> </td>
+            </tr>
+        
+    </table>
+    </fieldset>
+    <fieldset>
+        <table>
+            
+                <tr>
+                    <td><label for="">Select Course</label></td>
+                    <td>
+                        <select name="SC">
+                            <option value="">select</option>
+                            <option value="">Java Full Stack</option>
+                            <option value="">Python Full Stack</option>
+                            <option value="">C Progreem</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Delivary Mode</label></td>
+                    <td>
+                        <input type="radio" name="md" value="Online"><label>Online</label>
+                        <input type="radio" name="md" value="Offline"><label>Offline</label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Comments</label></td>
+                    <td><textarea cols="50px" rows="10px" optional></textarea></td>
+                </tr>
+            
+        </table>
+    </fieldset><br>
+    <input type="submit" optional id="submit">
+</form>
+    
+
+</body>
+</html>
