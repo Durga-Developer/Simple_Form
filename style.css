@@ -96,7 +96,7 @@ input[type="number"]:focus:invalid~img#wrong{
     color: rgb(95, 118, 110);
 }
 #submit:hover{
-    box-shadow: 8px 16px 32px blue;
+    color: blue;
 }
 input,select{
     background-color:#d4f8f4;
